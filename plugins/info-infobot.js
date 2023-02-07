@@ -49,8 +49,8 @@ let old = performance.now()
 let info = `
 ╭━━━━[ ${gt} ]━━━━━⬣
 ┃
-┃➥ *CREADORA | CREATOR*
-┃ღ *𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨*
+┃➥ *CREADOR | CREATOR*
+┃ღ *𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CONTACTO | CONTACT* 
 ┃ღ *${ig}*

@@ -18,37 +18,19 @@ let name = await conn.getName(m.sender)
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-*Wa.me/593993684821*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *2* 💖🐈
-*Wa.me/51993485767*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *3* 💖🐈
-*Wa.me/51980771033*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *4* 💖🐈
-*Wa.me/51944156574*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *5* 💖🐈
-*Wa.me/50368274385*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *6* 💖🐈
-*Wa.me/50761803843*
-
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *7* 💖🐈
-*Wa.me/18134031777*
+𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃 💖🐈
+*Wa.me/51914865141*
 
 
 *---------------------*
-*CENTER GATABOT*
-*centergatabot@gmail.com*
+*CENTER 𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃*
+*Ale.izn_10*
 
-𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
 *${asistencia}*
 
-*Sr. Pablo* - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
-*Wa.me/51993042301*
+*𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃* - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+*Wa.me/51914865141*
 `
   let teks = ' '
 const sections = [
@@ -88,7 +70,7 @@ const listMessage = {
       const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
         switch (type) {
           case 'nomor':
-          conn.reply(m.chat, "Nombre del bot : GataBot-MD 🐈", m, { contextInfo: { mentionedJid: [nowner] }})
+          conn.reply(m.chat, "Nombre del bot : 𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃 🐈", m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
           conn.sendHydrated(m.chat, teksbio, wm, ppown, "https://www.instagram.com/gata_dios", "Instagram",null, [null, null], m)
